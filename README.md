@@ -9,6 +9,6 @@ The directory Contains the Following Files:-
 
 2.**Report** :- A pdf file of Detailed Analysis on Approaches used and Architecures implemented for Exo-Planet Detection alongwith results. A brief Summary of the Report is given in the README file.
 
-3.**Transit Photometry** :- This folder Contains references to explanation of Transit Photometry(The technique used for Detecting Exo-Planets.
+3.**Transit Photometry** :- This folder Contains references to explanation of Transit Photometry(The technique used for Detecting Exo-Planets).
 
 
