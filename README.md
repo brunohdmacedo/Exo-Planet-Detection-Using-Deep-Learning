@@ -5,8 +5,10 @@ A Deep Convolutional Neural Network Architecture to correctly Identify whether a
  
 The directory Contains the Following Files:-
 
-1.**NoteBook-Limited Data** :- This folder Contains .ipynb notebooks on Exo-Planet Detection using the Kepler Labelled Time-Series Dataset Provided in Inter IIT Tech Meet 2017.
+1.**NoteBooks** :- This folder Contains Jupyter notebooks on various architectures used for Exo-Planet Detection using the Kepler Labelled Time-Series Dataset Provided in Inter IIT Tech Meet 2017. The dataset can be found at Kaggle [here](https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data/tasks).
 
-2.**NoteBook-Full Data** :- This Folder Contains .ipynb notebooks on Exo-Planet Detection using Kaggle's Kepler Labelled Time-Series Dataset Titled **"Exo-Planet Hunting in Deep Space"**. Dataset Can be found [here](https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data/tasks)
+2.**Report** :- A pdf file of Detailed Analysis on Approaches used and Architecures implemented for Exo-Planet Detection alongwith results. A brief Summary of the Report is given in the README file.
 
-3.**Report** :- A pdf file of Detailed Analysis on Approaches used and Architecures implemented for Exo-Planet Detection alongwith results. A brief Summary of the Report is given in the README file.
+3.**Transit Photometry** :- This folder Contains references to explanation of Transit Photometry(The technique used for Detecting Exo-Planets.
+
+
