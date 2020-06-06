@@ -19,6 +19,18 @@ The technique used for Exo-Planet Detection in this Project is Transit Photometr
 
 ### Data Pre-Processing
 
+#### Data Labelling
+
 The Dataset Used in this Project is Kepler-Labelled-Time-Series-Dataset Provided in Inter-IIT Tech Meet 2017. The dataset Contained Label 2 for Exo-Planet and 1 for Non-ExoPlanet. The labels were changed to 1 and 0 respectively. 
 
 It was Observed that the dataset was Highly Imbalanced. It contained around 99 % Data Points for Non-ExoPlanets and Just 1 % Data Points for Exo-Planets. Hence, the dataset was Split Into Training and Validation Sets, after which the Training Set was Over Sampled Using SMOTE(Synthetic Minority Over Sampling Technique) which doesn't duplicate Minority Class data points rather creates Synthetic Examples Similar to the ones present in the dataset. Since only the Training Set was Over Sampled, there was no risk of Data Leakage into Validation Set.
+
+### Intuition for CNN Architecture
+
+The Project aims at Detecting an Object using a set of points whose values are Light Intensity. This is Similar to Classifying Images which consist of Pixels and Collection of Pixels gives us the image. Finding out spatial relation/pattern among pixels helps us in Classification. Similarly here, finding spatial Pattern between light Intensities treating them as pixels can help us correctly Detect Exo-Planets by taking into consideration the relation different intensities have with each other.
+
+### CNN Architecture Used
+
+Among all the Architectures used for Experimentation, two gave promising Results.They were:-
+
+1.**Customised AlexNet + Dense Layers** :-
