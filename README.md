@@ -51,6 +51,11 @@ Among all the Architectures used for Experimentation, the most promising results
 | 0(Non-ExoPlanets)     | 546               | 19               |
 | 1(Exo-Planet)         | 0                 | 5                |
 
+**Training and Validation Loss and Accuracy Curves**
+
+![](Graphs/Training_And_Validation_Accuracy_AlexNet.PNG)
+![](Graphs/Training_And_validation_loss_AlexNet.PNG)
+
 **Take Away**
 
 The test Set had 565 Non-ExoPlanets and 5 Exo-Planets. Still, the above model identified all Exo-Planets Correctly without Mis-Classification. Out of 565 Non-ExoPlanets it identified 546 Correctly. Hence, we can conclude that the above model succeeds in correctly identifying Exo-Planets, although there is error in classifying Non-ExoPlanets.
@@ -75,6 +80,11 @@ The results are as Follows -
 | -------------         |:-----------------:|:-----------------:
 | 0(Non-ExoPlanets)     | 565               | 0                |
 | 1(Exo-Planet)         | 2                 | 3                |
+
+**Training and Validation Loss and Accuracy Curves**
+
+![](Graphs/Training_And_validation_Accuracy_Multi-Channel.PNG)
+![](Graphs/Training_And_validation_Loss_Multi-Channel.PNG)
 
 **Take Away**
 
