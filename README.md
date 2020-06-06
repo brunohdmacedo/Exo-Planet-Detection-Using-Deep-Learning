@@ -13,6 +13,8 @@ The directory Contains the Following Files:-
 
 4.**Graphs** :- This Folder Contains Screenshots of Training and Validation Accuracy and Loss Graphs for the Finalised Models.
 
+5.**Multi-Channel-Model.h5** :- Saved weights for Multi-Channel Model. The JSON file for this architecture can be found in Models.
+
 ## Project Summary
 
 ### Method of Detection
