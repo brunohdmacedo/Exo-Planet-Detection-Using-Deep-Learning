@@ -11,4 +11,5 @@ The directory Contains the Following Files:-
 
 3.**Transit Photometry** :- This folder Contains references to explanation of Transit Photometry(The technique used for Detecting Exo-Planets).
 
+4.**Models** :- This Folder Contains Saved Weights of Trained Architectures.
 
