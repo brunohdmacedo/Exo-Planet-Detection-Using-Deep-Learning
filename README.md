@@ -11,6 +11,8 @@ The directory Contains the Following Files:-
 
 3.**Models** :- This Folder Contains Saved Weights of Trained Architectures.
 
+4.**Graphs** :- This Folder Contains Screenshots of Training and Validation Accuracy and Loss Graphs for the Finalised Models.
+
 ## Project Summary
 
 ### Method of Detection
